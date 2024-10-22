@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Praktikum</title> <!-- Judul halaman yang ditampilkan di tab browser -->
+  <link rel="stylesheet" href="style.css"> <!-- Menghubungkan file CSS eksternal untuk styling -->
+</head>
+<body>
+
+  <header> <!-- Bagian header halaman -->
+    <nav> <!-- Elemen navigasi untuk menu -->
+      <ul> <!-- Daftar navigasi -->
+        <li><a href="#">Home</a></li> <!-- Link ke halaman utama -->
+        <li><a href="#">Artikel</a></li> <!-- Link ke halaman artikel -->
+        <li><a href="#">Kontak</a></li> <!-- Link ke halaman kontak -->
+      </ul>
+    </nav>
+  </header>
+  
+  <main> <!-- Bagian utama dari konten halaman -->
+    <section id="article"> <!-- Seksi untuk artikel -->
+      <center> <!-- Memusatkan konten di dalamnya -->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwU514Xp0KiIskUlE-m5Bg6tjPXX5tRkZfgw&s" alt="Telkom"> <!-- Gambar Telkom University -->
+      <h1>Pendaftaran Telkom University</h1> <!-- Judul utama artikel -->
+      <p>Telkom University adalah sebuah perguruan tinggi di Indonesia yang berfokus pada bidang teknologi dan komunikasi. Didirikan pada tahun 2013, universitas ini merupakan bagian dari Telkom Group, yang merupakan perusahaan telekomunikasi terbesar di Indonesia.</p> <!-- Paragraf deskripsi universitas -->
+      </center> <!-- Mengakhiri pusat konten -->
+    </section>
+    
+    <section id="contact-form"> <!-- Seksi untuk formulir kontak -->
+      <h2>Hubungi Kami</h2> <!-- Judul untuk formulir kontak -->
+      <form id="formContact"> <!-- Mulai formulir kontak -->
+        <label for="name">Nama:</label> <!-- Label untuk input nama -->
+        <input type="text" id="name" required> <!-- Input untuk nama dengan atribut wajib -->
+        
+        <label for="email">Email:</label> <!-- Label untuk input email -->
+        <input type="email" id="email" required> <!-- Input untuk email dengan atribut wajib -->
+        
+        <label for="message">Pesan:</label> <!-- Label untuk input pesan -->
+        <textarea id="message" required></textarea> <!-- Area teks untuk pesan dengan atribut wajib -->
+        
+        <button type="submit">Kirim</button> <!-- Tombol untuk mengirim formulir -->
+      </form> <!-- Mengakhiri formulir kontak -->
+    </section>
+  </main>
+
+  <footer> <!-- Bagian footer halaman -->
+    <p>&copy; 2024 Praktikum Web. Semua Hak Dilindungi.</p> <!-- Pesan hak cipta -->
+  </footer>
+
+  <script src="script.js"></script> <!-- Menghubungkan file JavaScript eksternal -->
+</body>
+</html>
